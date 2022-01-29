@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Power switch</h2>
+<form action="" method="post" novalidate>
+  {{ form0.hidden_tag() }}
+  {{ form0.power_switch() }}
+</form>    
+{% endblock %}

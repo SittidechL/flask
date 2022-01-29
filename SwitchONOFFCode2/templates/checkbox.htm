@@ -1,0 +1,22 @@
+{% extends "layout.htm" %}
+{% block title %}Index{% endblock %}
+<style>
+
+</style>
+
+{% block head %}{{ super() }}{% endblock %}
+
+
+{% block content %}
+
+<label class="switch">
+    <input type="checkbox" id="togBtn">
+    <div class="slider round">
+     <!--ADDED HTML -->
+     <span class="on">ON</span>
+     <span class="off">OFF</span>
+     <!--END-->
+    </div>
+   </label>
+  
+{% endblock %}
