@@ -8,7 +8,7 @@ database_file = "sqlite:///{}".format(os.path.join(project_dir, "bookdatabase.db
 
 app = Flask(__name__)
 
-user, password = 'Pex', '22122123126455'
+user, password = 'Pex', 'mysqlroot'
 host = 'Pex.mysql.pythonanywhere-services.com'
 dbname = 'Pex$bookdatabase' # dbFlask was created as a PythonAnywhere MySQL database
 # connection string: mysql://user:pword@host/dbname
