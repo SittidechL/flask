@@ -4,6 +4,7 @@ from machine import Pin
 import time
 
 p = Pin(5, Pin.OUT)
+print('test')
 
 def toggle(max):
     lap = 0
